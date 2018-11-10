@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link src="style.css" href="#">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12-md">
+                <h3 class="title-header">Real Tiny Improvements</h3>
+                <i class="#" style="font-size:36px"></i>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3-md">
+                <div class="card">
+                    <div class="card-body">
+                        <button class="kudos-modal btn btn-info" type="button" data-toggle="modal" data-target="#kudoModal">Give Kudos</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-9-md" id="kudos">
+                <div class="card">
+                    <h5>Hello</h5>
+                    <h6>Bye</h6>
+                    <div class="card-body">
+                        <h6>TO:</h6>
+                        <p>FROM:</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-fade bd-example-modal-lg" id="kudoModal" tabindex="-1" role="dialog" aria-labeledby="kudoModal" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title" id="myModalLabel">Give Kudo!</h4>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X</span></button>
+                </div>
+                <div class="modal-body">
+                    <div id="messages"></div>
+                    <form>
+                        <div class="container form-group">
+                            <div class="row">
+                                <div class="col-3-lg form-area">
+                                    <select name="kudo-from" class="form-control btn btn-secondary">
+                                        <option selected disabled value>Select Sender</option>
+                                        <option value="#">Pete</option>
+
+
+                                    </select>
+                                </div>
+                                <div class="col-5-lg form-area">
+                                    <input class="form-control" type="text" id="kudo-title" placeholder="Type a Title">
+                                    <textarea class="form-control" type="text" id="kudo-body" rows="5" placeholder="Type Message"></textarea>
+                                </div>
+                                <div class="col-3-lg">
+                                    <select name="kudo-to" id="kudo-to" class="form-control btn btn-secondary">
+                                        <option selected disabled value>Send To</option>
+                                        <option value="#">Naomi</option>
+
+
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" id="send-kudo">Send Kudos!</button> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="/js/app.js"></script>
+</body>
+</html>
