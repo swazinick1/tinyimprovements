@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css"
+</head>
+<body>
+
+    <div class="container">
+            <div class="header">
+                    
+                        <h3 class="title-header">Real Tiny Improvements</h3>
+                        <i class="fas fa-users" style="font-size:36px"></i>
+                        <hr>
+                    
+            </div>
+
+            <!-- <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <button class="kudos-modal btn btn-info" type="button" data-toggle="modal" data-target="#kudosModal">Give Kudos</button>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Give Kudos</h5>
+                            <div id="messages"></div>
+                            <form>
+                                    <div class="container form-group">
+                                        <div class="row">
+                                            <div class="col-3-lg form-area">
+                                                <select name="kudo-from" id="kudo-from" class="form-control btn btn-secondary">
+                                                    <option selected disabled value>Select Sender</option>
+                                                    <option value="5be63958a4e90907501d7106">Pete</option>
+                                                    <option value="5be63938a4e90907501d7104">Issac</option>
+                                                    <option value="5be63949a4e90907501d7105">Kelly</option>
+                                                    <option value="5be63962a4e90907501d7107">Naomi</option>
+            
+            
+                                                </select>
+                                            </div>
+                                            <div class="col-5-lg form-area">
+                                                <input class="form-control" type="text" id="kudo-title" placeholder="Type a Title">
+                                                <textarea class="form-control" type="text" id="kudo-body" rows="5" placeholder="Type Message"></textarea>
+                                            </div>
+                                            <div class="col-3-lg">
+                                                <select name="kudo-to" id="kudo-to" class="form-control btn btn-secondary">
+                                                    <option selected disabled value>Send To</option>
+                                                    <option value="5be63958a4e90907501d7106">Pete</option>
+                                                    <option value="5be63938a4e90907501d7104">Issac</option>
+                                                    <option value="5be63949a4e90907501d7105">Kelly</option>
+                                                    <option value="5be63962a4e90907501d7107">Naomi</option>
+            
+            
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                                <button type="button" class="btn btn-primary" id="send-kudo">Send Kudos!</button> 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6" id="kudos">
+                        <div class="card" id="kudoCard">
+                            <h5 id="kudoTitle">Headline</h5>
+                            <h6 id="kudosFrom">Sender</h6>
+                            <div class="card-body">
+                                <h6 id="kudosTo">Reciever</h6>
+                                <p id="kudosFor">Insert text</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            
+
+
+
+
+
+
+
+
+            
+
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="/js/app.js"></script>
+</body>
+</html>

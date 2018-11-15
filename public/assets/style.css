@@ -1,0 +1,19 @@
+.fas{
+    /* float: top ; */
+    display: inline-block;
+}
+
+#kudoCard{
+    text-align: center;
+}
+
+#send-kudo{
+    float:right;
+}
+
+
+
+
+#kudos{
+    width:75%;
+}

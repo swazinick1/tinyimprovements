@@ -23,5 +23,3 @@ const UserSchema = new Schema({
 const Users = mongoose.model("Users", UserSchema);
 
 module.exports = Users
-// users in db
-// db.users.insert({username:"Issac", position:"Lead Scientist"},{username:"Kelly", position:"Manager"},{username:"Pete", position:"Lab Tech"},{username:"Naomi", position:"Lab Tech"},{username:"Sara", position:"Sales Lead"},{username:"Atom", position:"Building Block"}

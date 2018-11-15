@@ -19,6 +19,7 @@
   "homepage": "https://github.com/swazinick1/tinyimprovements#readme",
   "dependencies": {
     "express": "^4.16.4",
-    "mongoose": "^5.3.11"
+    "mongoose": "^5.3.11",
+    "path": "^0.12.7"
   }
 }
