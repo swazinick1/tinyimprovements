@@ -1,6 +1,7 @@
 const Users =require('../models/users');
 const Kudos = require('../models/kudos');
 
+
 module.exports = function (app) {
 
 // app.get('/api/users', function (req,res){
@@ -98,12 +99,7 @@ app.get('/api/users', function (req,res){
     });
 });
 
-db.createCollection('users');
-db.users.insert({username:"Issac", position:"Lead Scientist"});
-db.users.insert({username:"Kelly", position:"Manager"});
-db.users.insert({username:"Pete", position:"Lab Tech"});
-db.users.insert({username:"Naomi", password:"Lab Tech"});
-db.users.insert({username:"Atom", position:"Building Block"});
+
 
 
 // users in db
